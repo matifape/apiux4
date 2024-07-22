@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom, black , #171717, black);
+  color: whitesmoke;
+}
+
+.header {
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.nav-superior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-superior {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 80%;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+
+.section-superior {
+  margin-top: 1rem;
+}
+
+.busqueda {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.busqueda h2{
+    margin-bottom: 1rem;
+    font-family: "PT Sans", sans-serif;
+}
+
+.barra-busqueda {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra-search {
+  padding: 12px 48px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+.barra-busqueda b {
+  margin-left: 40%;
+}
+
+.obras {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.obra{
+    padding: 5px;
+    flex: 1 1 30%; 
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid whitesmoke;
+}
+
+.obra:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.imagen-obra {
+  border: 1px solid #171717;
+
+  width: 80%; 
+  height: auto; 
+}
+
+.obra b{
+    display: block;
+    margin: 8px auto;
+    
+}
+
+
+footer{
+    margin-top: 2rem;
+    border-top: 1px solid whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    font-family: "PT Sans", sans-serif;
+    background-color: #1c1c1c;
+   
+    
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.div-footer{
+    display: flex;
+    align-items: center;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    font-size: 20px;
+}
